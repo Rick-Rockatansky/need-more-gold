@@ -1,0 +1,109 @@
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	font-family: calibri;
+	text-align: justify;
+}
+header, .contents, footer, article {
+	background: #E6E6E6;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border: 1px solid #CFCFCF;
+}
+header img {
+	width: 140px;
+	height: 64px;
+	margin: 15px 0 0 20px;
+	float: left;
+}
+header h1 {
+	padding: 14px 0 0 330px;
+	color: #787878;
+	font-size: 1.7em;
+}
+img:not(:first-child) {
+	border: 1px solid #CDCDCD;
+	margin: 15px 0;
+}
+header {
+	width: 100%;
+	height: 100px;
+	border-radius: 0 0 8px 8px;
+}
+.contents, article {
+	padding: 10px 5%;
+}
+h2, h3 {
+	color: #47729D;
+}
+h2 {
+	margin-left: 20px;	
+}
+.contents img {
+	width: 11px;	
+}
+.contents > ul > li {
+	list-style: none;
+	margin-top: 5px;	
+}
+.container li {
+	margin-top: 5px;
+}
+.contents ol li a {
+	color: black;
+}
+.container a {
+	text-decoration: none;
+	color: #3C3C3C;
+}
+.container a:hover {
+	text-decoration: underline;
+}
+.hide {
+	display: none;
+}
+a div {
+	background: url('images/arrow.png');
+	width: 11px;
+	height: 13px;
+	background-size: 11px 13px;
+	background-repeat: no-repeat;
+	float: left;
+	margin-right: 5px;
+	position: relative;
+	top: 3px;
+}
+.down {
+	background: url('images/arrow-down.png');
+	width: 13px;
+	height: 11px;
+	background-size: 13px 11px;	
+}
+article {
+	margin-bottom: 40px;
+}
+footer {
+	margin-top: 40px;
+	overflow: hidden;
+}
+footer p {
+	text-align: center;
+	padding: 10px 0;
+	color: #737373;
+}
+.back {
+	display: block;
+	margin: 15px 0; 
+}
+.back img {
+	width: 15px;
+}
+.paragraph {
+	text-align: center;
+	font-size: 20px;
+	padding: 20px 0;
+}
+.example {
+	padding: 20px 0 20px 35px;
+	font-style: italic;
+}
