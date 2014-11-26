@@ -35,5 +35,18 @@ window.onload = function() {
 	g.nextElementSibling.classList.toggle('hide');
 	};
 
+
+	$(window).scroll(function(){
+  if($(window).scrollTop() > 1000){
+      $("#navigation").fadeIn("slow");
+  }
+});
+$(window).scroll(function(){
+  if($(window).scrollTop() < 1000){
+      $("#navigation").fadeOut("fast");
+  }
+});
+	
+
 	
 };

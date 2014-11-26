@@ -5,10 +5,11 @@
 	<title>Руководство пользователя</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="script.js"></script>
+	<script src="jquery.js"></script>
 </head>
 <body>
 	<div class="container">
-		<header>
+		<header id="header">
 			<a title="Назад к порталу" href="http://galderma.viseven.com.ua/ru-RU"><img src="images/logo.png"></a>
 		</header>
 		<h1>Руководство пользователя</h1>
@@ -85,6 +86,7 @@
 				</li>				
 			</ul>			
 		</div>
+		<a href="#header" id="navigation" class="leftBack"><img src="images/aside_arrow1.png"></a>
 		<main>
 			<h2>Введение</h2>
 			<article id="organized">
@@ -408,7 +410,7 @@
 					</li>
 				</ol>
 			</article>
-			<a href="#content" class="back"><img src="images/arrow-up.png"> Назад к оглавлению</a>			
+			<a href="#header" class="back"><img src="images/arrow-up.png"> Назад к оглавлению</a>			
 		</main>
 		<footer>
 			<p>©2012-2014. Все права защищены. (v.1.4.2.0)</p>
